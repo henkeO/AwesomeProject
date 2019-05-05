@@ -5,8 +5,8 @@ class WelcomeScreen extends Component {
   render() {
     return (
       <View>
-        <Text style={{fontSize: 20, textAlign: 'center', fontWeight: 'bold'}}>SABRINA & HENRIK'S</Text>
-        <Text style={{fontSize: 14, textAlign: 'center'}}>AWESOME PROJECT</Text>
+        <Text style={{fontSize: 30, textAlign: 'center', fontWeight: 'bold', color: '#FFF'}}>SABRINA & HENRIK'S</Text>
+        <Text style={{fontSize: 20, textAlign: 'center', color: '#FFF'}}>AWESOME PROJECT</Text>
       </View>
     );
   }

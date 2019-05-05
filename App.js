@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import WelcomeScreen from './src/components/WelcomeScreen'
+import WelcomeScreen from './src/components/WelcomeScreen';
+import Background from './src/components/Background'
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <WelcomeScreen />
-      </View>
+        <Background>
+          <View style={styles.container}>
+            <WelcomeScreen />
+          </View>
+        </Background>
     );
   }
 }
@@ -17,16 +20,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'transparent',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });
