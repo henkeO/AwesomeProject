@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-class HelloWorldApp extends Component {
+class WelcomeScreen extends Component {
   render() {
     return (
       <View>
@@ -12,4 +12,4 @@ class HelloWorldApp extends Component {
   }
 }
 
-export default HelloWorldApp;
+export default WelcomeScreen;
